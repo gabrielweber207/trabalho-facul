@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Minha Página Pessoal</title>
+  <style>
+    body {
+      background-color: #ffffff; /* cor suave de fundo */
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+
+    h1 {
+      color: #ff0000;
+      text-align: center;
+    }
+
+    p {
+      font-size: 18px;
+      text-align: justify;
+    }
+
+    ul {
+      line-height: 2; /* espaçamento maior entre itens */
+    }
+
+    img {
+      width: 300px;
+      height: auto;
+      border-radius: 10px; /* bordas arredondadas */
+      margin-top: 10px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+    }
+
+    table, th, td {
+      border: 1px solid #888;
+    }
+
+    td {
+      padding: 10px;
+      text-align: center;
+    }
+
+    a {
+      color: #1e90ff;
+      text-decoration: none;
+    }
+
+    a:hover {
+      color: #ff4500; /* muda de cor ao passar o mouse */
+    }
+
+    #mensagem {
+      margin-top: 15px;
+      font-weight: bold;
+      color: #006400;
+    }
+
+    button {
+      margin-top: 10px;
+      padding: 10px 15px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Gabriel Weber</h1>
+
+  <p>
+    Meu nome é Gabriel Weber, tenho 18 anos e moro em Igrejinha. Gosto de tecnologia, programação, música e também pratico diverços  esportes. Sempre busco aprender algo novo e evoluir pessoal e profissionalmente.
+  </p>
+
+  <button onclick="mostrarMensagem()">click aqui!!</button>
+  <div id="mensagem"></div>
+
+  <h2>Meus hobbies</h2>
+  <ul>
+    <li>jogar no computador</li>
+    <li>Jogar futebol</li>
+    <li>fazer bolo </li>
+  </ul>
+
+  <h2>Imagem de um hobby</h2>
+ <img src="OIP.jfif" alt="Goleiro defendendo" width="300" />
+  <table></tr>
+  <table>
+    <tr>
+      <td>Estados Unidos</td>
+      <td><img src="https://flagcdn.com/w320/us.png" alt="Estados Unidos" width="100"></td>
+    </tr>
+    <tr>
+      <td>Alemanha</td>
+      <td><img src="https://flagcdn.com/w320/de.png" alt="Alemanha" width="100"></td>
+    </tr>
+    <tr>
+      <td>França</td>
+      <td><img src="https://flagcdn.com/w320/fr.png" alt="França" width="100"></td>
+    </tr>
+  </table>
+
+  <p>
+    Para acompanhar as novidades da tecnologia, acesse o site: 
+    <a href="https://www.tecmundo.com.br" target="_blank">TecMundo</a>
+  </p>
+
+  <script>
+    function mostrarMensagem() {
+      document.getElementById("mensagem").innerText = "Venha me conhecer um pouco mais sobre minha pessoa";
+    } 
+  </script>
+
+</body>
+</html>
